@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("9162783.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000007e;
+    border-radius: 10px;
+    padding: 100px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+.inner_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.clock {
+    display: none;
+    color: white;
+    font-size: 90px;
+}
+.date {
+    display: none;
+    color: white;
+    font-size: 50px;
+}
+#am_pm, #year {
+    color: red;
+}
